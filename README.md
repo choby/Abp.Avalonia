@@ -59,5 +59,6 @@ Deploying an ABP application follows the same process as deploying any .NET or A
 
 You can see the following resources to learn more about your solution and the ABP Framework:
 
+* [Avalonia Turoaial](https://docs.avaloniaui.net/docs/welcome)
 * [Web Application Development Tutorial](https://abp.io/docs/latest/tutorials/book-store/part-1)
 * [Application Startup Template](https://abp.io/docs/latest/startup-templates/application/index)

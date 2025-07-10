@@ -10,6 +10,8 @@ sealed class Program
     // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
     // yet and stuff might break.
     [STAThread]
-    public static void Main(string[] args) => AbpApplicationBuilder.BuildAbpAvaloniaApp<App>(args)
+    public static void Main(string[] args) => BuildAvaloniaApp()
         .StartWithClassicDesktopLifetime(args);
+    
+    private static AppBuilder BuildAvaloniaApp() => AbpApplicationBuilder.BuildAbpAvaloniaApp<App>();
 }

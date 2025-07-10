@@ -1,16 +1,12 @@
-using System;
-using System.IO;
 using Avalonia;
 using Avalonia.ReactiveUI;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp;
 
 namespace Abp.Avalonia.Desktop.Abp;
 
 public static class AbpApplicationBuilder
 {
-    public static AppBuilder BuildAbpAvaloniaApp<TApp>(string[] args) where TApp : Application,IAbpApplication, new()
+    public static AppBuilder BuildAbpAvaloniaApp<TApp>() where TApp : Application,IAbpApplication, new()
     {
         var appBuilder = AppBuilder.Configure(appFactory: () =>
         {

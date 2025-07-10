@@ -31,10 +31,10 @@ public partial class App : Application, IAbpApplication
             desktop.MainWindow = mainWindow;
             //desktop.MainWindow = new MainWindow(new MainWindowViewModel());
         }
-        // else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewPlatform)
-        // {
-        //     singleViewPlatform.MainView = mainWindow;
-        // }
+        else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewPlatform)
+        {
+            singleViewPlatform.MainView = mainWindow;
+        }
 
         base.OnFrameworkInitializationCompleted();
     }

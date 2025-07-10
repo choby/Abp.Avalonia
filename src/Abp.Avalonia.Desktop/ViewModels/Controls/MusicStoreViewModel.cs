@@ -55,11 +55,6 @@ public partial class MusicStoreAbpViewModel : AbpViewModel
         {
             var albums = await _iTunesService.SearchAsync(searchText);
             this.SearchResults.AddRange(ObjectMapper.Map<IEnumerable<AlbumDto>, IEnumerable<AlbumViewModel>>(albums));
-            // foreach (var album in albums)
-            // {
-            //     var vm = new AlbumViewModel(album);
-            //     this.SearchResults.Add(vm);
-            // }
         }
        
         if (!cancellationToken.IsCancellationRequested)

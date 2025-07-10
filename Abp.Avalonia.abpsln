@@ -1,0 +1,53 @@
+{
+  "id": "b550e4ae-766d-418e-9779-40ada5c3bd69",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "9.2.1",
+    "AbpStudio": "1.0.2",
+    "TargetDotnetFramework": "net9.0"
+  },
+  "modules": {
+    "Abp.Avalonia": {
+      "path": "Abp.Avalonia.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+      
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "1.0.2",
+    "tiered": "false",
+    "runInstallLibs": "true",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "mvc",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "true",
+    "databaseManagementSystem": "sqlite",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "true",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "themeMenuPlacement": "",
+    "mobileFramework": "none",
+    "publicWebsite": "false",
+    "socialLogin": "true",
+    "selectedLanguages": ["English", "English (United Kingdom)", "简体中文", "Español", "العربية", "हिन्दी", "Português (Brasil)", "Français", "Русский", "Deutsch (Deuthschland)", "Türkçe", "Italiano", "Čeština", "Magyar", "Română (România)", "Svenska", "Suomi", "Slovenčina", "Íslenska", "繁體中文", ],
+    "defaultLanguage": "English",
+    "createCommand": "abp new Abp.Avalonia -t app --ui-framework mvc --database-provider ef --database-management-system sqlite --theme leptonx-lite --without-cms-kit --dont-run-bundling -no-file-management"
+  }
+}

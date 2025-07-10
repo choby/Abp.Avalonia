@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Abp.Avalonia.Application": {
+      "path": "src/Abp.Avalonia.Application/Abp.Avalonia.Application.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.Application.Tests": {
+      "path": "test/Abp.Avalonia.Application.Tests/Abp.Avalonia.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Avalonia.Domain.Shared": {
+      "path": "src/Abp.Avalonia.Domain.Shared/Abp.Avalonia.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.Application.Contracts": {
+      "path": "src/Abp.Avalonia.Application.Contracts/Abp.Avalonia.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.HttpApi": {
+      "path": "src/Abp.Avalonia.HttpApi/Abp.Avalonia.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.HttpApi.Client": {
+      "path": "src/Abp.Avalonia.HttpApi.Client/Abp.Avalonia.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.Web": {
+      "path": "src/Abp.Avalonia.Web/Abp.Avalonia.Web.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.Web.Tests": {
+      "path": "test/Abp.Avalonia.Web.Tests/Abp.Avalonia.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Avalonia.EntityFrameworkCore.Tests": {
+      "path": "test/Abp.Avalonia.EntityFrameworkCore.Tests/Abp.Avalonia.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Avalonia.EntityFrameworkCore": {
+      "path": "src/Abp.Avalonia.EntityFrameworkCore/Abp.Avalonia.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.TestBase": {
+      "path": "test/Abp.Avalonia.TestBase/Abp.Avalonia.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Abp.Avalonia.Domain.Tests": {
+      "path": "test/Abp.Avalonia.Domain.Tests/Abp.Avalonia.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Avalonia.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Abp.Avalonia.HttpApi.Client.ConsoleTestApp/Abp.Avalonia.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Abp.Avalonia.DbMigrator": {
+      "path": "src/Abp.Avalonia.DbMigrator/Abp.Avalonia.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Abp.Avalonia.Domain": {
+      "path": "src/Abp.Avalonia.Domain/Abp.Avalonia.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

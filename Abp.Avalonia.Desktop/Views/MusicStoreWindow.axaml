@@ -1,0 +1,20 @@
+<suki:SukiWindow xmlns="https://github.com/avaloniaui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:vm="using:Abp.Avalonia.Desktop.ViewModels.Controls"
+            xmlns:suki="clr-namespace:SukiUI.Controls;assembly=SukiUI"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:views="using:Abp.Avalonia.Desktop.Views.Controls"
+            xmlns:controls="clr-namespace:Abp.Avalonia.Desktop.ViewModels.Controls"
+            mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+            x:Class="Abp.Avalonia.Desktop.Views.MusicStoreWindow"
+            x:DataType="controls:MusicStoreAbpViewModel"
+            Title="Music Store"
+            WindowStartupLocation="CenterOwner"
+            ShowBottomBorder="False"
+            ShowTitlebarBackground="False"
+>
+    <Panel Margin="40">
+        <views:MusicStoreView/>
+    </Panel>
+</suki:SukiWindow>

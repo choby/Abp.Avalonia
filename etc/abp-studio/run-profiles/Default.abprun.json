@@ -1,0 +1,18 @@
+﻿{
+  "applications": {
+    "Abp.Avalonia.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44379",
+      "path": "../../../src/Abp.Avalonia.Web/Abp.Avalonia.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 2
+      }
+    }
+  },
+  "containers": {
+    "serviceName": "Avalonia-Containers",
+  }
+}
